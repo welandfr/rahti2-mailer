@@ -1,0 +1,8 @@
+
+POST {{$dotenv MAILER_URL}}
+Content-Type: application/json
+
+{
+    "to": "{{$dotenv TO_ADDR}}",
+    "body": "Testing rahti2"
+}
